@@ -1,3 +1,39 @@
-<h2 id="title">Welcome to Ember.js</h2>
+<form id="cc_info" action="text.html">
+  <h1>AMEX</h1>
+    <fieldset>
+      <div class="field">
+        <label>Your name</label>
+        {{input type='type' value=name}}
+      </div>
+
+      <div class="field">
+        <label>Secret name</label>
+        <p>{{name}}</p>
+      </div>
+
+      <label>APR</label>
+      {{input type="text" value=isAPR size="50"}}
+
+      <label>APR</label>
+      {{input type="text" value=isAPR size="50"}}
+
+
+
+
+
+     {{!--  <label for="cc_balance">Balance</label>
+      <input type="text" id="cc_balance" name="cc_balance">
+
+      <label for="cc_apr">APR</label>
+      <input type="text" id="cc_apr" name="cc_apr">
+
+      <label for="cc_payment">Payment</label>
+      <input type="text" id="cc_payment" name="cc_payment">
+    </fieldset>
+    <fieldset>
+      <label>Months to pay off:</label>
+      <input type="text"> --}}
+    </fieldset>
+</form>
 
 {{outlet}}
