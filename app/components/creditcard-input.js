@@ -13,9 +13,6 @@ export default Ember.Component.extend({
 
 
 
-
-
-
 /**
 isBalance - FIELD
 isAPR - FIELD
@@ -35,7 +32,7 @@ Avg daily balance. is days x same balance added together and divided by total da
 Percentage 14 is .14, is divided by 365 (days per year)
 
 Monthly payments = (Principal)(APR/1200 + (APR/1200)/((1+APR/1200)^Term -1))
-AVG monthly payment is
+
 
 **/
 
